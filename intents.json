@@ -1,0 +1,73 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "yo",
+        "oi",
+        "How are you",
+        "How are you doing",
+        "How's it going",
+        "Is anyone there?",
+        "Hello",
+        "Good after noon",
+        "What's up",
+        "Good day",
+        "How are you doing"
+      ],
+      "responses": ["Hi there, how can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "See ya"],
+      "responses": ["See you later, thanks for visiting"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "I will tell Katsuya so as well!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name?",
+        "Who are you?",
+        "Who's this?",
+        "Who am I speaking to?"
+      ],
+      "responses": ["I am Katsuya-AI!"]
+    },
+    {
+      "tag": "where",
+      "patterns": ["Where's Katsuya?", "Can I talk to Katsuya.", "Where is he"],
+      "responses": [
+        "Sorry, he is currently busy right now but you can reach him at wakabayashi@ucla.edu",
+        "He is a busy guy but I can help you!"
+      ]
+    },
+    {
+      "tag": "who",
+      "patterns": ["Who's Katsuya", "What's Katsuya"],
+      "responses": [
+        "Katsuya is currently a student of UCLA and he loves icecream!"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "What's your contact?",
+        "How do I reach him?",
+        "What's your email?",
+        "How to contact you?"
+      ],
+      "responses": ["You can reach him at wakabayashi@ucla.edu"]
+    }
+  ]
+}
